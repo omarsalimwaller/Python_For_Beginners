@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>36334ba8-baf5-4681-8fd9-671ce09e1959</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tic_tac_toe.py</StartupFile>
+    <StartupFile>scramble.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Rock_Paper_Scissors.py" />
+    <Compile Include="scramble.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tic_tac_toe.py">
       <SubType>Code</SubType>
     </Compile>
