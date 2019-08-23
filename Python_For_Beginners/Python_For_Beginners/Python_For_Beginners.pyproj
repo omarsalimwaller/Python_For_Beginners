@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>36334ba8-baf5-4681-8fd9-671ce09e1959</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Rock_Paper_Scissors.py</StartupFile>
+    <StartupFile>tic_tac_toe.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Rock_Paper_Scissors.py" />
+    <Compile Include="tic_tac_toe.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

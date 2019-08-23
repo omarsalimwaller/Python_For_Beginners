@@ -37,10 +37,12 @@ while human_input != 'q':
             print("Human: %s Computer: %s" %(human_score, computer_score))
 
         if ((computer_score == 2 and human_score < 2) or (computer_score == 3 and human_score == 2)):
+            print("")
             print("Computer wins!")
             human_input ='q'
         
         elif ((human_score == 2 and computer_score < 2) or (human_score == 3 and computer_score == 2)):
+            print("")
             print("You win!")
             human_input ='q'
 
