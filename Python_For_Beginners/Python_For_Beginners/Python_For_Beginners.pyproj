@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>36334ba8-baf5-4681-8fd9-671ce09e1959</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>scramble.py</StartupFile>
+    <StartupFile>MathQuiz.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="MathQuiz.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Rock_Paper_Scissors.py" />
     <Compile Include="scramble.py">
       <SubType>Code</SubType>
